@@ -9,6 +9,7 @@ import lottiJson from "../public/5326-loading-10-cooker.json"
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  // Comment
   const [text,setText] = useState("");
   const [dish,setDish] = useState("");
   const [isLoading,setLoading] = useState(false)
